@@ -1,0 +1,77 @@
+@import url("../css/header.css");
+@import url("../css/fonts.css");
+@import url("../css/common.css");
+@import url("../css/footer.css");
+
+
+/* NAV ↓ */
+.nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    column-gap: 80px;
+    height: 50px;
+    margin-bottom: 70px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* a:hover{
+    color: hsl(209, 86%, 60%);
+    font-weight: bold;
+} */
+/* 
+NAV↑ */
+
+.div-regresar{
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    border: 1px solid hsl(209, 86%, 60%);;
+    width: 100px;
+
+}
+.img-regresar{
+    width: 30px;
+    height: 20px;
+}
+
+.div-regresar a{
+    color: hsl(209, 86%, 60%);
+    text-decoration: none;
+}
+.h1-sobre-nosotros{
+    margin-left: 20px;
+}
+/* SOBRE NOSOTROS↓ */
+
+.div-sobre-nosotros{
+    display: flex;
+    margin: 20px;
+    flex: 1;
+    height: 400px;
+
+}
+
+.img-sobre-nosotros{
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+    height: 400px;
+}
+
+.p-sobre-nosotros{
+    padding: 40px;
+    border: 4px solid #ffffff;
+    color: #ffff;
+    background-color: #016fb3;
+    font-size: 30px;
+}
+
+
+

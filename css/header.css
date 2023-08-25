@@ -1,0 +1,236 @@
+@import url("../css/common.css");
+@import url("../css/fonts.css");
+
+.header{
+    display: flex;
+    width: 100%;
+    padding-left: 80px;
+    justify-content: start;
+    align-items: start;
+    height: 100px;
+    background-color: #49a0d3;
+    background-image: linear-gradient(327deg, #49a0d3 0%, #235bd7 100%);
+    column-gap: 10px;
+    position: fixed;
+    z-index: 100;
+}
+
+.header-segunda-seccion a,
+.header-tercera-seccion a{
+    color: white;
+}
+
+.h1-Muebles{
+    font-family: 'Black Ops One', cursive,sans-serif;
+}
+
+.header-primera-seccion{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3px;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 25%;
+    text-align: center;
+    line-height: 30px;
+}
+
+.p-epitome{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Bad Script', cursive,sans-serif;
+    text-align: center;
+}
+
+.span-titulo-muebles{
+    color: hsl(0, 0%, 100%);
+}
+
+.header-segunda-seccion{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid #000; */
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.header-segunda-seccion ul{
+    display: flex;
+    /* align-self: center; */
+    column-gap: 20px;
+    justify-content: space-around;
+    /* margin-left: 50px; */
+    width: 100%;
+    margin-top: 7px;
+
+}
+
+.header-tercera-seccion{
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    margin-top: 7px;
+}
+
+.div-cuenta-carrito-menu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div-navs-carrito li a{
+    text-align: center;
+}
+
+.div-navs-ubicar-tienda li a,
+.div-navs-contacto li a,
+.div-navs-facturacion li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.header-menus{
+    width: 70%;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 95px;
+}
+
+.div-menu-navegacion ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 4px;
+}
+
+.header-menus  ul{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.header-menus a{
+    color: white;
+    font-family:Rubik-Italic, sans-serif;
+}
+
+.contenido-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-envios-header{
+    display: flex;
+    column-gap: 5px;
+    padding-top: 10px;
+    height: 70px;
+    width: 100%;
+    justify-content: end;
+}
+
+.div-envios-header p, span{
+    color: white;
+}
+
+.span-envios{
+    font-size: 12px;
+}
+
+.div-navs-mi-cuenta li a,
+.div-navs-carrito li a{
+    display: flex;
+    column-gap: 3px;
+    align-items: center;
+}
+
+.div-navs-carrito{
+    position: relative;
+}
+
+.div-notificacion-carrito{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background-color: #d51414;
+    top: -5px;
+    right: -5px;
+    position: absolute;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+}
+
+.img-location-header,
+.img-contact-header,
+.img-billing-header,
+.img-user-header,
+.img-cart-header{
+    width: 24px;
+    height: 25px;
+    margin-left: 4px;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+}
+
+.img-lupita{
+    width: 26px;
+    height: 25px;
+}
+
+.img-menu-blanco{
+    width: 50px;
+    height: 45px;
+}
+
+.inp-search-header{
+    width: 93%;
+    padding: 10px 15px;
+    margin-left: 47px;
+    margin-top: 15px;
+    border-radius: 20px;
+    border: none;
+    outline-style: none;
+    height: 40px;
+    font-size: 15px;
+}
+.inp-search-header::placeholder{
+    color: #3586ff;
+    font-weight: bold;
+}
+
+
+.div-search{
+    display: flex;
+    /* align-items: center; */
+    position: relative;
+    width: 100%;
+ 
+}
+
+.btn-search-header{
+    position: absolute;
+    top: 19px;
+    right: 10px;
+    height: 32px;
+    background-color: white;
+    width: 30px;
+    border: none;
+}
+.img-truck-delivery{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+}
+
+
+/* HEADER↑ */

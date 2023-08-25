@@ -1,0 +1,506 @@
+@import url("../css/fonts.css");
+@import url("../css/common.css");
+@import url("../css/header.css");
+@import url("../css/mediaQueries.css");
+/* NAV↓ */
+.nav{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    column-gap: 10px;
+    /* flex: 1; */
+    width: 90%;
+    margin: 0px 100px;
+    position: relative;
+    top: 120px;
+    z-index: 1;
+}
+
+.nav a{
+    font-family:JosefinSans-BoldItalic;
+}
+.nav a:hover{
+    color: #016fb3;
+    font-weight: bold;
+}
+/* NAV↑ */
+
+
+
+.main{
+    position: relative;
+    top: 130px;
+}
+
+.h1-categoria-productos{
+    font-family: JosefinSans-BoldItalic;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.img-muebles-principal{
+    margin-top: 40px;
+    width: 100%;
+    height: 400px;
+}
+
+.div-categoria{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.imagenes-categorias{
+    display: flex;
+    justify-content: center;    
+    column-gap: 25px;
+}
+
+.imagenes-categorias button{
+    color: hsl(209, 86%, 60%);
+    font-weight: bold;
+}
+
+.imagenes-categorias img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+}
+
+.div-Oficina,
+.div-Hogar,
+.div-Cocina{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-oficina,
+.btn-hogar,
+.btn-cocina{
+    width: 100%;
+    height: 30px;
+    border: none;
+}
+
+.btn-oficina:hover,
+.btn-hogar:hover,
+.btn-cocina:hover{
+    background-color: hsl(209, 86%, 60%);
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* CONTENEDOR SOBRE NOSOTROS */
+.div-contenedor-sobre-nosotros{
+    margin-top: 60px;
+    display: flex;
+    flex: 1;
+    height: 400px;
+}
+
+
+
+.img-sobre-nosotros{
+    width: 50%;
+    height: 400px;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+}
+
+
+.div-info-sobre-nosotros{
+    padding: 50px;
+    background-color: #016fb3;
+    width: 50%;
+    height: 400px;
+    border: 5px solid white;
+
+}
+
+
+.div-info-sobre-nosotros h1,h2,p{
+    color: rgb(255, 255, 255);
+}
+
+.h1-Sobre-nosotros{
+    margin-bottom: 50px;
+    margin-top: 70px;
+}
+
+.h1-nuestros-productos{
+    display: flex;
+   justify-content: center;
+    margin: 30px auto;
+    color: hsl(209, 86%, 60%);
+}
+
+.div-contenedor-nuestros-productos{
+    display: flex;
+    flex: 1;
+    height: 350px;
+    padding: 0 250px;
+    margin-bottom: 10px;
+}
+
+.img-producto1{
+    width: 70%;
+    height: 350px;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+}
+
+.div-entrega-inmediata{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.div-entrega-inmediata h3{
+    color: white;
+}
+
+.img-truck-delivery{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+}
+
+.div-producto1-info{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   width: 30%;
+   background-color: #016fb3;
+   padding: 20px 15px;
+   border-top-right-radius: 20px;
+   border-bottom-right-radius: 20px;
+   border-bottom: 3px solid white;
+   border-right: 3px solid white;
+   border-top: 3px solid #fff;
+}
+
+.div-producto1-info h2{
+    margin-bottom: 10px;
+}
+
+#btn-añadir{
+    background-color: rgb(26, 182, 26);
+    border: none;
+    width: 80%;
+    padding: 5px 0;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.hr-oasis{
+    border-top: 1px solid #ffff;
+    width: 60%;
+}
+.p-descripcion-producto1{
+    margin-bottom: 20px;
+}
+.p-precio-producto1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 25px 0 0;
+    
+}
+
+.img-shopping-cart{
+    width: 20px;
+    height: 15px;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+}
+
+.nav a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.h2-oasis{
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+}
+
+/* CONTENEDOR-PRODUCTO-2-3 */
+
+.div-contenedor-producto2-3{
+    display: flex;
+    flex: 1;
+    height: 500px;
+    padding: 0 250px;
+    margin-bottom: 10px;
+    column-gap: 10px;
+    
+}
+
+.div-contenedor-producto-2,
+.div-contenedor-producto-3{
+    display: flex;
+    flex-direction: column;
+}
+
+.div-contenedor-producto-3{
+    position: relative;
+}
+
+.producto-mas-vendido{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    background-color: orangered;
+    font-weight: bold;
+    position: absolute;
+    border-radius: 3px;
+    top: 10px;
+    left: 5px;
+    padding: 4px;
+    color: white;
+}
+
+.img-producto2,
+.img-producto3{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+}
+
+.div-info-producto-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #016fb3;
+    padding: 10px 15px;
+    height: 50%;
+}
+
+.div-info-producto-2 h2{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.div-info-producto-2 hr{
+    border-top: 1px solid #ffff;
+    width: 60%;
+}
+
+.div-entrega-inmediata-producto2{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    column-gap: 10px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.div-entrega-inmediata-producto2 h3{
+    color: white;
+}
+
+.p-precio-producto2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 5px 0 0;
+}
+
+#btn-añadir-producto2{
+    background-color: rgb(26, 182, 26);
+    border: none;
+    width: 80%;
+    padding: 5px 0;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#btn-añadir-producto2:hover{
+    background-color: #68b77c;
+    border: 1px solid rgb(26, 182, 26);
+}
+
+#btn-añadir-producto2:hover svg{
+    color: rgb(26, 182, 26);
+}
+
+
+
+.div-contenedor-producto4-5-6{
+    display: flex;
+    flex: 1;
+    height: 600px;
+    padding: 0 250px;
+    margin-bottom: 10px;
+    column-gap: 10px;
+    margin-top: 15px;
+}
+
+
+.div-info-producto-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #016fb3;
+    padding: 10px 15px;
+    height: 50%;
+
+}
+
+
+.div-contenedor-producto4{
+    display: flex;
+    flex-direction: column;
+}
+
+.img-producto4{
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+}
+
+.hr-cama{
+    border-top: 1px solid white;
+    width: 60%;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    background-color: #3586ff;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 220px;
+}
+
+footer .social-icon,
+footer .menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+
+footer .social-icon li,
+footer .menu li{
+    list-style: none;
+}
+
+footer .social-icon li a{
+    font-size: 2em;
+    color: white;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+footer .social-icon li a:hover{
+    transform: translateY(-10px);
+}
+
+footer .menu li a{
+    font-size: 1.2em;
+    color: white;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    opacity: 0.75;
+}
+
+footer .menu li a:hover{
+   
+    opacity: 1;
+}
+
+footer p{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+footer .wave{
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+     background-image: url(../img/wave.png);
+    background-size: 1000px 100px;
+}
+
+footer .wave#wave1{
+     z-index: 1000;
+     opacity: 1;
+     bottom: 0;
+     animation: animateWave 4s linear infinite;
+}
+
+footer .wave#wave2{
+    z-index: 999;
+    bottom: 0.5;
+    bottom: 10px;  
+    animation: animateWave1 4s linear infinite;
+}
+
+footer .wave#wave3{
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animateWave 3s linear infinite;
+}
+
+footer .wave#wave4{
+   z-index: 999;
+   bottom: 0.7;
+   bottom: 20px;  
+   animation: animateWave1 3s linear infinite;
+}
+
+@keyframes animateWave{
+    0%{
+        background-position-x: 1000px;
+    }
+    100%{
+        background-position-x: 0px;
+    }
+}
+
+@keyframes animateWave1{
+    0%{
+        background-position-x: 0px;
+    }
+    100%{
+        background-position-x: 1000px;
+    }
+}

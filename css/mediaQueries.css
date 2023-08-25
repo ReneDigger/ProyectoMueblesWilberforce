@@ -1,0 +1,182 @@
+/* 
+Small Mobile 320px
+Medium Mobile 375px
+Large Mobile 425px
+Tablet 768px
+Laptop 1024px
+Desktop 1025-1200 
+Extra Large screens
+4k 2560 */
+
+
+/* 
+@media (max-width:1280px ){
+    .header{
+        width: 320px;
+        height: 182px;
+        display: flex;
+        
+    }
+} */
+
+/*Media queries Header*/
+
+@media (min-width:836px){
+    .div-navs-menu{
+        display: none;
+    }
+}
+
+@media (max-width:835px){
+
+    .h1-Muebles,
+   .span-titulo-muebles{
+    font-size: 21px;
+    line-height: 22px;
+   }
+ 
+   .div-navs-ubicar-tienda,
+   .div-navs-contacto,
+   .div-navs-facturacion,
+   .div-navs-mi-cuenta{
+    display: none;
+   }
+
+   .header-segunda-seccion{
+    height: 100px;
+    width: 93%;
+
+   }
+
+   .header-segunda-seccion ul{
+    display: none;
+   }
+
+   .inp-search-header{
+    margin-left: 0;
+    margin-top: 0;
+   }
+   
+   .btn-search-header{
+    position: absolute;
+    top:6px;
+    right: 45px;
+   }
+
+   .div-envios-header{
+    padding-top: 0;
+   }
+   .span-envios{
+     display: none;
+     padding-top: 0;
+   }
+
+}
+
+@media (max-width:480px){
+
+    .header{
+        padding-left: 18px;
+    }
+    .header-primera-seccion{
+        width: 30%;
+        line-height: 20px;
+        
+    }
+
+    .p-epitome{
+        font-size: 12px;
+    }
+
+    .h1-Muebles,
+    .span-titulo-muebles{
+        font-size: 18px;
+    }
+    
+    .div-envios-header{
+        display: none;
+    }
+
+    .inp-search-header{
+        font-size: 10px;
+        width: 93%;
+    }
+    .img-lupita{
+        width: 17px;
+        height: 17px;
+    }
+    .btn-search-header{
+        right: 21px;
+    }
+    
+   .a-mi-carrito{
+    font-size: 0px;
+   }
+ 
+   .header-tercera-seccion{
+    margin-right: 2.5px;
+   }
+}
+
+
+@media (max-width:376px){
+
+ .header-tercera-seccion{
+    margin-right: 8px;
+ }
+
+ .h1-Muebles{
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: 5px;
+ }
+ .span-titulo-muebles{
+    font-size: 15px;
+ }
+ .img-menu-blanco{
+    width: 30px;
+    height: 35px;
+ }
+
+ .img-cart-header{
+    margin-left: -18px;
+ }
+
+ .btn-search-header{
+    right: 23px;
+ }
+}
+
+
+@media (max-width:321px){
+    
+    .h1-Muebles{
+       font-size: 15px;
+       line-height: 17px;
+       margin-top: 5px;
+    }
+    .span-titulo-muebles{
+       font-size: 15px;
+    }
+    .img-menu-blanco{
+       width: 30px;
+       height: 35px;
+    }
+   
+    .img-cart-header{
+       margin-left: -18px;
+    }
+   
+    .btn-search-header{
+       right: 26px;
+    }
+    .p-epitome{
+        font-size: 11px;
+    }
+
+    .div-search{
+        width: 134%;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+   }

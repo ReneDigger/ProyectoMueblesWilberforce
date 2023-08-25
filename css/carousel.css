@@ -1,0 +1,72 @@
+.vista-carousel{
+    display: flex;
+    justify-content: start;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.container-carousel{
+    width: 830px;
+    height: 415px;
+    background-color: beige;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.carouseles{
+    width: 300%;
+    height: 100%;
+    display: flex;
+    /* transform: translateX(-66.6%);  Esto se tendria que hacer  manualmente , es decir ir cambiando el valor de -33.3% a 66.6%, sino utilizaramos js*/ 
+}
+.slider-section img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    aspect-ratio: 16/9; 
+    border-radius: 15px;
+}   
+
+.slider-section{
+    width: calc(100%/3);
+    height: 100%;
+}
+
+.btn-left,
+.btn-right{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    font-size: 1.5rem;
+    background-color: white;
+    border-radius: 50%;
+    padding: 0px;
+    font-weight: 600;
+    cursor: pointer;
+    color: gray;
+    transform: translate(0-50%);
+    transition: .5s ease;
+    user-select: none;
+    border: none;
+}
+
+.btn-left{
+     left: 10px;
+}
+
+.btn-right{
+    right: 10px;
+}
+
+.btn-left:hover,
+.btn-right:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+.img-arrow{
+    width: 100%;
+    height: 25px;
+}

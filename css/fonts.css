@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "SAVINGSB_";
+    src: url("../Font/SAVINGSB_.TTF");
+}
+
+@font-face {
+    font-family: "Rubik-Regular";
+    src: url("../Font/Rubik/Rubik-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Rubik-Bold";
+    src: url("../Font/Rubik/Rubik-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Hobo";
+    src: url("../Font/Hobo.otf");
+}
+
+@font-face {
+    font-family: "EduSABeginner-Bold";
+    src: url("../Font/Edu_Sa/EduSABeginner-Bold.ttf");
+}
+
+@font-face {
+    font-family: "PlayfairDisplay-BlackItalic";
+    src: url("../Font/Playfair/PlayfairDisplay-BlackItalic.ttf");
+}
+
+@font-face {
+    font-family: "JosefinSans-BoldItalic";
+    src: url("../Font/Josefina-Sans/JosefinSans-BoldItalic.ttf");
+}
+
+@font-face {
+    font-family: "BlackOpsOne-Regular";
+    src: url("../Font/BlackOpsOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: "BadScript-Regular";
+    src: url("../Font/BadScript-Regular.ttf");
+}
